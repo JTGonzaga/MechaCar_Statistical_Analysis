@@ -13,8 +13,10 @@
   - This linear model predicts the mpg of MechaCar prototypes somewhat effectively. The value of the multiple R-squared implies that there is a 71% chance of the model being correct.
  
 ## Summary Statistics on Suspension
-
+Total Summary
 ![total summary](https://github.com/JTGonzaga/MechaCar_Statistical_Analysis/blob/main/Analysis/total_summary.png)
+
+Summary by Lot Number
 ![lot summary](https://github.com/JTGonzaga/MechaCar_Statistical_Analysis/blob/main/Analysis/lot_summary.png)
 
 - The design specifications dictate that tha variance of the suspension coils must not exceed 100lbs/in². According to the statistics of the prototypes as a whole, we are at a variance of 62.3 which implies that all prototytpes are within range of the specifications. Looking at the data a little deeper displays that this is not the case. Separating the data by manufacturing lot and running the same analysis shows that lot 1 and lot 2 have single digit variances in their suspension coils. The variance of lot 3 is just over 170 which is far outside the specificaiton range and needs to be addressed.
